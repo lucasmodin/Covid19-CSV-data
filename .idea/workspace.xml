@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="230f9e34-3a62-41ee-9a1b-69ec8fac5142" name="Changes" comment="Changed data from tour winners to covid19 data">
-      <change afterPath="$PROJECT_DIR$/src/AldersGruppeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegionComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Userinterface.java" afterDir="false" />
+    <list default="true" id="230f9e34-3a62-41ee-9a1b-69ec8fac5142" name="Changes" comment="Added userInterface and sorting options">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Covid19Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Covid19Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Userinterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Userinterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712300557947</updated>
       <workItem from="1712300559410" duration="3200000" />
-      <workItem from="1712560740895" duration="2008000" />
+      <workItem from="1712560740895" duration="2955000" />
     </task>
     <task id="LOCAL-00001" summary="Changed data from tour winners to covid19 data">
       <option name="closed" value="true" />
@@ -85,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712303868803</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added userInterface and sorting options">
+      <option name="closed" value="true" />
+      <created>1712563250613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712563250613</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed data from tour winners to covid19 data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed data from tour winners to covid19 data" />
+    <MESSAGE value="Added userInterface and sorting options" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added userInterface and sorting options" />
   </component>
 </project>

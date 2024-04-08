@@ -26,6 +26,10 @@ public class Userinterface {
                     sortAfterAgeGroup();
                     break;
 
+                case 4:
+                    sortAfterRegionAndAge();
+                    break;
+
                 default:
                     System.out.println("Invalid input - please choose a valid option!");
                     break;
@@ -57,6 +61,14 @@ public class Userinterface {
 
         Collections.sort(dataSet, new AldersGruppeComparator());
         System.out.println("Sorteret efter aldersgruppe");
+        for(Covid19Data data : dataSet) {
+            System.out.println(data);
+        }
+    }
+
+    public void sortAfterRegionAndAge() {
+        Collections.sort(dataSet, new RegionComparator().thenComparing(new AldersGruppeComparator()));
+        System.out.println("Sorteret efter region først, og så aldersgruppe");
         for(Covid19Data data : dataSet) {
             System.out.println(data);
         }
